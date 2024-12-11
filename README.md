@@ -13,3 +13,5 @@ To successfully execute the process, multiple steps are required.
 7. Run the application with ```mvn spring-boot:run```
 
 Now the application should be running and be connected to the cluster. In the web version, you can now run the process and pass these initial data for the correlation keys of incoming message events: ```{"resultsReceived": "results-1", "orderReady": "mixture-1"}```. While you need to manually execute user tasks in the Camunda Tasklist, all other tasks and message flows should be automatically run.
+
+Additionally, a screen recording of the process execution can be found in the execution-video directory.
