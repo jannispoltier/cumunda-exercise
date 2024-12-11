@@ -28,6 +28,7 @@
 	</scm>
 	<properties>
 		<java.version>23</java.version>
+		<start-class>io.camunda.hu.exercise.manufacture_supplements.WorkerApplication</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
